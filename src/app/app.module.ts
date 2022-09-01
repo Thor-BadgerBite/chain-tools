@@ -18,7 +18,6 @@ import {
 } from './chain-detail-page/synchronization-scripts/synchronization-scripts.component';
 import { AboutComponent } from './chain-detail-page/about/about.component';
 import { InstallationScriptsComponent } from './chain-detail-page/installation-scripts/installation-scripts.component';
-import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from "ngx-google-analytics";
 import { SummaryComponent } from './chain-detail-page/summary/summary.component';
 import { NgCircleProgressModule } from "ng-circle-progress";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
@@ -47,8 +46,6 @@ import { UpgradeScriptsComponent } from './chain-detail-page/upgrade-scripts/upg
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    NgxGoogleAnalyticsModule.forRoot('G-J46ZYRRDQD'),
-    NgxGoogleAnalyticsRouterModule,
     NgCircleProgressModule.forRoot({
       // set defaults here
       outerStrokeWidth: 5,
